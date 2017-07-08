@@ -1,0 +1,73 @@
+
+h1 {
+    font-size: 2em;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 3px 3px 2px #000000;
+    font-family: 'Oswald', sans-serif;
+    border: 3px dashed black;
+    padding: 10px;
+}
+
+table 
+    {
+        border: 10px solid pink;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+    }
+
+.space-10 {margin: 10px}
+
+.riseup {
+    font-size: 2em;
+    text-shadow: 3px 3px 2px pink;
+    transition-property: text-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.riseup:hover
+    {
+        text-shadow: 7px 7px 7px black;
+    }
+
+
+li
+{
+    background-color: grey;
+    padding: 10px;
+    margin: 5px;
+}
+
+.red-color
+{
+    color: red;
+}
+.blue-color
+    {
+        color: blue;
+    }
+
+.box-blue
+    {
+        background-color: black;
+        border: 5px blue solid;
+        width: 200px;
+        height: 200px;
+        border-radius: 0px;
+        transition-property: border-radius, background-color, border;
+        transition-duration: 500ms;
+        transition-timing-function: linear;
+    }
+
+.box-blue:hover
+    {
+        background-color: pink;
+        border: 5px red;
+        border-radius: 100px;
+    }
+    
+
